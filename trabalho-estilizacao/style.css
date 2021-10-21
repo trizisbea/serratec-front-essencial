@@ -1,14 +1,14 @@
 .container{
     font-family: 'Lato', sans-serif;
     font-size: medium;
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 15px;
     border-radius: 15px;
     border-width: 10px;
+    text-align: justify;
     border-style: dashed;
     border-color: rgb(66, 63, 63);
 }
-
 
 h1{
     font-weight: bold;
