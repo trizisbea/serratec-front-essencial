@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Serraflix</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Filmes</h1>
+    <!--Formulário-->  
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Digite o título do filme</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Digite o ano de lançamento do filme</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder=""> 
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Insira a sinopse do filme</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Insira a capa do filme</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <button type="button" class="btn btn-primary">Cadastrar</button>
+    <!--Tabela-->
+    <h2>Filmes Cadastrados</h2>
+    <table class="table table-dark table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Título</th>
+            <th scope="col">Ano de Lançamento</th>
+            <th scope="col">Sinopse</th>
+            <th scope="col">Imagem</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Cisne Negro</th>
+            <td>2010</td>
+            <td>"Nina é uma bailarina cuja obsessão pela dança supera todas as facetas de sua vida. Quando o diretor artístico da companhia decide substituir sua prima ballerina para a produção de estreia de "O Lago dos Cisnes", Nina é sua primeira escolha. Sua concorrente é a novata Lily. Embora Nina seja perfeita para o papel do Cisne Branco, Lily personifica o Cisne Negro. A rivalidade entre as duas bailarinas se transforma em uma amizade distorcida e o lado obscuro de Nina começa a vir à tona."</td>
+            <td><img src="img/img1.jpg" widht=100px height=100px alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Girl</th>
+            <td>2018</td>
+            <td>"Lara (Victor Polster) é uma jovem menina de quinze anos, seu maior sonho é tornar-se uma bailarina profissional e, com a ajuda do pai, ela busca uma nova escola de dança para desenvolver sua técnica. No entanto, a menina encontra dificuldades para adaptar-se aos movimentos executados nas aulas por conta de sua estrutura óssea e muscular, já que Lara nasceu no corpo de um menino."</td>
+            <td><img src="img/img2.jpg" widht=100px height=100px alt=""></td>
+          </tr>
+        </tbody>
+      </table>
+ </div>   
+</body>
+</html>
